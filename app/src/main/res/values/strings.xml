@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HousingSearch</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="greetings">Привіт!\n Я допоможу Вам вибрати житло.</string>
+    <string name="zaporizhzhia">Запоріжжя</string>
+    <string name="dnieper">Дніпро</string>
+    <string name="kharkov">Харків</string>
+    <string name="nikolaev">Миколаїв</string>
+    <string name="poltava">Полтава</string>
+    <string name="apartaments">Квартира</string>
+    <string name="houses">Дім</string>
+</resources>

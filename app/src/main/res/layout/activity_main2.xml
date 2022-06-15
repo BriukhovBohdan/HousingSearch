@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="105dp"
+        android:layout_height="99dp"
+        android:src="@drawable/photo_2022_02_08_10_22_24" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="125dp"
+        android:layout_height="94dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/_11" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="99dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="7dp"
+        android:text="Вибрати місто"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="11dp"
+        android:text="Тип житла"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rooms1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv5"
+        android:layout_marginTop="21dp"
+        android:text="Кількість кімнат" />
+
+    <TextView
+        android:id="@+id/numbstoreys1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/floors1"
+        android:layout_marginTop="6dp"
+        android:text="Етажність" />
+
+    <TextView
+        android:id="@+id/floors1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rooms1"
+        android:layout_marginTop="12dp"
+        android:text="Етаж" />
+
+    <TextView
+        android:id="@+id/typehouses1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rooms1"
+        android:layout_marginTop="11dp"
+        android:text="Тип дому" />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="-1dp"
+        android:text="Пошук" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:layout_below="@+id/find"
+        android:layout_marginTop="14dp" />
+
+
+
+
+</RelativeLayout>
